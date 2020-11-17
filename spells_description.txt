@@ -1,0 +1,12 @@
+FIREBALL      || PYROBLAST         || HEAL    || DIVINE SHIELD
+==============================================================
+Deals random  || Deals  standard   || Restore || Gives +100 HP
+damage (1-85) || damage with       || 70 HP   || per turn for
+              || additional damage ||         || 5 turns
+              || (50 - 10)         ||         ||
+
+SUMMON FIRE PILLAR   || FIRE MADNESS
+====================================
+Deals 20 damage      || Increases damage
+and deals 10 damage  || by 30 for 5 turns
+per turn for 5 turns ||
