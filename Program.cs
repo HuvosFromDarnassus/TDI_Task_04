@@ -964,16 +964,19 @@ namespace TDI_Task_04
                 {
                     Player.HP = 0;
 
+                    Thread.Sleep(2000);
                     PrintLoseMessage();
                     Console.Write($"\nPlayer was KILLED in ");
                     Console.ForegroundColor = ConsoleColor.Cyan;
                     Console.Write($"{turn - 1} turns!");
                     Console.ResetColor();
+                    
                     Player.GetPlayerInfo();
                     break;
                 }
                 else if (Boss.HP <= 0)
                 {
+                    Thread.Sleep(2000);
                     PrintWinMessage();
                     Console.Write($"\n{Boss.name} was DISTROED in ");
                     Console.ForegroundColor = ConsoleColor.Cyan;
