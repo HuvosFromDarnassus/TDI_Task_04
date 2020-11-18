@@ -663,6 +663,7 @@ namespace TDI_Task_04
 
                 if (menuChoice == "SD" || menuChoice == "sd")
                 {
+                    //ПОЖАЛУЙСТА ПРОПИШИТЕ ЗДЕСЬ ВЕРНЫЙ ПУТЬ К ТЕКСТОВОМУ ФАЙЛУ С ОПИСАНИЕМ ЗАКЛИНАНИЙ
                     string[] lines = System.IO.File.ReadAllLines(@"D:\DOCUMENTS\STADYING\PRACTICE\TrainingPractice_01\TDI_Task_04\spells_description.txt");
                     Console.WriteLine("\n======================SPELLS DESCRIPTION:======================");
                     foreach (string line in lines)
