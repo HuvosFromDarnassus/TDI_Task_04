@@ -964,7 +964,7 @@ namespace TDI_Task_04
                 {
                     Player.HP = 0;
 
-                    Thread.Sleep(2000);
+                    Console.ReadLine();
                     PrintLoseMessage();
                     Console.Write($"\nPlayer was KILLED in ");
                     Console.ForegroundColor = ConsoleColor.Cyan;
@@ -976,7 +976,7 @@ namespace TDI_Task_04
                 }
                 else if (Boss.HP <= 0)
                 {
-                    Thread.Sleep(2000);
+                    Console.ReadLine();
                     PrintWinMessage();
                     Console.Write($"\n{Boss.name} was DISTROED in ");
                     Console.ForegroundColor = ConsoleColor.Cyan;
